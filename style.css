@@ -144,6 +144,55 @@ header nav .nav-container li {
     font-size: 20px;
 }
 
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #fff;
+    width: 100%;
+}
+
+.call-to-action .call-to-action_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    width: 100vw;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    padding: 35px 65px;
+
+}
+.call-to-action .call-to-action_content .call-to-action_title{
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.call-to-action  .call-to-action_specs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call-to-action  .call-to-action_specs .call-to-action_paragraph{
+   color: #f9faf8;
+   font-size: 18px;
+   padding: 10px 0px;
+}
+
+.call-to-action  .call-to-action_specs .call-to-action_button {
+    color: #e5e7eb;
+    align-items: center;
+    background: #3882f6;
+     padding: 10px 35px;
+     font-size: 18px;
+     border-radius: 10px;
+     border: 2px solid #e5e7eb;
+}
 
 
 
