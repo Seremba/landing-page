@@ -85,8 +85,8 @@ header nav .nav-container li {
     font-size: 38px;
     color: #1f2937;
     text-align: center;
-    padding: 30px;
-    margin: 25px;
+    padding: 10px;
+    margin: 15px;
 }
 
 .info-details {
@@ -102,6 +102,9 @@ header nav .nav-container li {
     flex-direction: column;
     /* justify-content: center; */
     align-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 10px;
 }
 
 .info-details .info-details_specs img{
@@ -117,6 +120,7 @@ header nav .nav-container li {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
+    width: auto;
  }
 
 /* testimony section styles  */
