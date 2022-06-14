@@ -61,6 +61,8 @@ header nav .nav-container li {
 #hero-section .hero-section_button {
     color: #e5e7eb;
     align-items: center;
+    font-size: 18px;
+    font-weight: 600;
     margin: 10px 0px;
      padding: 10px 35px;
      background-color: #3882f6;
@@ -123,7 +125,7 @@ header nav .nav-container li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 60vh;
     background-color: #e5e7eb;
 }
 .testimony .testimony-paragraph {
@@ -192,6 +194,17 @@ header nav .nav-container li {
      font-size: 18px;
      border-radius: 10px;
      border: 2px solid #e5e7eb;
+}
+
+footer {
+    background: #1f2937;
+    padding: 40px 0px;
+}
+
+footer p {
+    color:#e5e7eb;
+    font-size: 18px;
+    text-align: center;
 }
 
 
