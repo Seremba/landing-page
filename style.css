@@ -62,8 +62,8 @@ header nav .nav-container li {
     color: #e5e7eb;
     align-items: center;
     margin: 10px 0px;
-     padding: 10px 25px;
-     background-color: blue;
+     padding: 10px 35px;
+     background-color: #3882f6;
      border-radius: 10px;
      border: none;
 }
@@ -73,3 +73,97 @@ header nav .nav-container li {
     overflow: hidden;
     padding: 0px 30px;
 }
+
+/* other section styles  */
+.info {
+    height: 90vh;
+}
+.info_title {
+    font-weight: 900;
+    font-size: 38px;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px;
+    margin: 25px;
+}
+
+.info-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-details .info-details_specs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: space-between;
+}
+
+.info-details .info-details_specs img{
+   max-width: 100%;
+   width: 100vw;
+   height: auto;
+   overflow: hidden;
+   padding: 0px 10px;
+   margin-bottom: 20px;
+   
+}
+.info-details .info-details_specs p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+ }
+
+/* testimony section styles  */
+.testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #e5e7eb;
+}
+.testimony .testimony-paragraph {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 75%;
+    width: 100vw;
+    line-height: 1.4;
+    padding: 10px 40px;
+}
+
+.testimony .testimony-author, span {
+    font-weight: 600;
+    padding-left: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
